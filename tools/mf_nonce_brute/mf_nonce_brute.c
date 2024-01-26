@@ -60,13 +60,14 @@ typedef struct thread_key_args {
 
 uint8_t cmds[8][2] = {
     {ISO14443A_CMD_READBLOCK, 18},
-    {ISO14443A_CMD_WRITEBLOCK, 18},
+/*    {ISO14443A_CMD_WRITEBLOCK, 18},
     {MIFARE_AUTH_KEYA, 0},
     {MIFARE_AUTH_KEYB, 0},
     {MIFARE_CMD_INC, 6},
     {MIFARE_CMD_DEC, 6},
     {MIFARE_CMD_RESTORE, 6},
     {MIFARE_CMD_TRANSFER, 0}
+*/
 };
 
 static const uint64_t g_mifare_default_keys[] = {
