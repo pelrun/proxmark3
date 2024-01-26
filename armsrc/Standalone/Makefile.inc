@@ -79,7 +79,7 @@ ifneq (,$(findstring WITH_STANDALONE_LF_THAREXDE,$(APP_CFLAGS)))
 endif
 # WITH_STANDALONE_HF_14ASNIFF
 ifneq (,$(findstring WITH_STANDALONE_HF_14ASNIFF,$(APP_CFLAGS)))
-    SRC_STANDALONE = hf_14asniff.c
+    SRC_STANDALONE = hf_14asniff_ram.c
 endif
 # WITH_STANDALONE_HF_14BSNIFF
 ifneq (,$(findstring WITH_STANDALONE_HF_14BSNIFF,$(APP_CFLAGS)))
